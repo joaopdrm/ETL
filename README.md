@@ -2,7 +2,7 @@
 # Este projeto é um pipeline ETL simples utilizando MongoDB e Apache Airflow.  
 ## Estrutura do Projeto
 
-  etl_project/
+  ``etl_project/
   ├── dags/
   │   ├── etl_dag.py
   ├── data/
@@ -16,4 +16,4 @@
   │   ├── airflow.cfg
   │   ├── mongo_config.py
   ├── requirements.txt
-  └── README.md
+  └── README.md``
