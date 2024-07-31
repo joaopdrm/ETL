@@ -5,23 +5,23 @@ Este projeto implementa um pipeline ETL (Extract, Transform, Load) usando MongoD
 ## Estrutura do Projeto
 
 ```plaintext
-etl_project/
-├── dags/
-│   ├── etl_dag.py          # Definição da DAG do Airflow
-├── data/
-│   ├── raw/                # Dados brutos
-│   ├── processed/          # Dados processados
-├── scripts/
-│   ├── extract.py          # Script de extração de dados
-│   ├── transform.py        # Script de transformação de dados
-│   ├── load.py             # Script de carregamento de dados
-├── config/
-│   ├── airflow.cfg         # Configurações do Airflow
-│   ├── mongo_config.py     # Configurações do MongoDB
-├── requirements.txt        # Dependências do projeto
-└── README.md               # Documentação do projeto
-
-## Requisitos
+  etl_project/
+  ├── dags/
+  │   ├── etl_dag.py          # Definição da DAG do Airflow
+  ├── data/
+  │   ├── raw/                # Dados brutos
+  │   ├── processed/          # Dados processados
+  ├── scripts/
+  │   ├── extract.py          # Script de extração de dados
+  │   ├── transform.py        # Script de transformação de dados
+  │   ├── load.py             # Script de carregamento de dados
+  ├── config/
+  │   ├── airflow.cfg         # Configurações do Airflow
+  │   ├── mongo_config.py     # Configurações do MongoDB
+  ├── requirements.txt        # Dependências do projeto
+  └── README.md               # Documentação do projeto
+```
+# Requisitos
 Certifique-se de ter os seguintes softwares instalados:
 
 * MongoDB
